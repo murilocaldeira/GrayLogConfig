@@ -167,7 +167,7 @@ OBS: O IP da máquina virtual (interno) é o 10.0.0.12
 
 password_secret = 5TfC5NbDeLjd750UqAL83apb1FgkUzkrFEnq2OzKTb7kKWdsZ8QlEI4aTdQnb9pl9aj2MbfUCCBrgDdBQr6ol1ZH0IEah5mL (Valor retornado pelo PWGEN)
 
-root_password_sha2 = 9872c134f90411596496d8ffe4d724f18aa20647473c8023fbc94a61f3726d3c (Valor do hash SGA-256 para suasenha de acesso que foi definida)
+root_password_sha2 = 9872c134f90411596496d8ffe4d724f18aa20647473c8023fbc94a61f3726d3c (Valor do hash SGA-256 para a senha de acesso que foi definida)
 
 root_email = "murilocaldeira@hotmal.com"
 
