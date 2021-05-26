@@ -2,7 +2,6 @@
 
 🦸‍♂️ O Graylog é uma ferramenta Open Source utilizada para centralizar, ordenar e classificar os logs afim de  analisar os logs de sua infraestrutura de maneira eficiente, direcionando assim todos os logs dos diversos ativos para um único host, facilitando uma auditoria, o monitoramento e a identificação de algum problema.
 
-Projeto desenvolvido para o  **Desafio Técnico da Aquarela Advanced Analytics** 
 
 ## 🛠 Tecnologias
 
@@ -159,9 +158,9 @@ OBS: O IP da máquina virtual (interno) é o 10.0.0.12
 
 `$ sudo pwgen -N 1 -s 96`
 
-*Para gerar o hash SHA-256 da senha de acesso pela interface web. Defini para o usuário "admin" a senha "aquarelagraylog".  O resultado foi: 9872c134f90411596496d8ffe4d724f18aa20647473c8023fbc94a61f3726d3c*
+*Para gerar o hash SHA-256 da senha de acesso pela interface web. Defini para o usuário "admin" a senha "suasenha".  O resultado foi: 9872c134f90411596496d8ffe4d724f18aa20647473c8023fbc94a61f3726d3c*
 
-`$ sudo echo -n aquarelagraylog | sha256sum`
+`$ sudo echo -n suasenha | sha256sum`
 
 *Ajustar a seguintes linhas do arquivo /etc/graylog/server/server.conf:*
 
